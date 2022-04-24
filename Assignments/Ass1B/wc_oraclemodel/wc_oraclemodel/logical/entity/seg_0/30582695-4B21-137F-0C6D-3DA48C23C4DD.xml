@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30582695-4B21-137F-0C6D-3DA48C23C4DD" name="PASSENGER">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:09:32 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pas_id" id="B4AAB5A1-43A2-748F-E34D-360A3DBACB16">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_fname" id="D944D1CF-949B-D871-B2E1-7CFED0B59850">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger first name]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_lname" id="A3805CB1-8E44-BBD4-2376-F2EC7A7828EF">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger last name]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_phone_num" id="1455E94E-3FB9-E2CD-B27E-C079468E9669">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger phone's number]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_gender" id="32649621-60C0-8A07-0B23-7869652002D3">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's gender]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_dob" id="5024D1F1-8F3B-C11A-3A08-5B106E683448">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger date of birth]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CAE851E-6E04-E101-2557-5A7BA21336E4" name="PASSENGER PK">
+<createdBy>User</createdBy>
+<createdTime>2022-04-24 08:13:13 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4AAB5A1-43A2-748F-E34D-360A3DBACB16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
