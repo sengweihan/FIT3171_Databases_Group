@@ -51,10 +51,17 @@
 <engineerTo>
 <item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
 </engineerTo>
+<constraintName>chk_cabin_class</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Balcony"/>
+<valueDef value="I" description="Interior"/>
+<valueDef value="O" description="Ocean View"/>
+<valueDef value="S" description="Suite"/>
+</listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
