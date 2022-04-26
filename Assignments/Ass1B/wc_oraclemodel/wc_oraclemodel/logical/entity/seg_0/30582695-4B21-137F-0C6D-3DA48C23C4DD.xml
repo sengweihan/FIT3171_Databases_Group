@@ -100,7 +100,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pas_id1" id="3932F160-85F4-3527-7356-62A57B1972A7">
+<Attribute name="pas_guard_id" id="3932F160-85F4-3527-7356-62A57B1972A7">
 <createdBy>chenzhuo</createdBy>
 <createdTime>2022-04-26 10:56:22 UTC</createdTime>
 <commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
