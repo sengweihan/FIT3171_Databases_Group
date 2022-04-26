@@ -57,6 +57,22 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ship_code" id="06977D2A-EF3B-BE87-2689-4AE7358D5E2C">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:07:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>1602C0AA-E85D-8D71-2B86-9644BBF4CCD0</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>EC7568A0-716E-F7D1-DAA3-066F52F9CCCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7BE816DF-2DC5-FAFA-9467-E05931A15276" name="CRUISE PK">
