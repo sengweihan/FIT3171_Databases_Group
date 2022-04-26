@@ -117,6 +117,23 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="addr_id" id="828ECAAA-7D4A-7320-28D9-7617B99CC181">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 11:04:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[address id]]></commentInRDBMS>
+<generatorID>5A08B932-22E0-7EFA-08FC-6DA8173878E4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>856B2BBF-2F1C-7DF1-D378-D0D49ADBB705</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1CAE851E-6E04-E101-2557-5A7BA21336E4" name="PASSENGER PK">

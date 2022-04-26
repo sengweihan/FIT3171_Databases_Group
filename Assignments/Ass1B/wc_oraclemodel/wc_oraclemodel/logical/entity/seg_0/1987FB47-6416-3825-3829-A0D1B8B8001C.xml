@@ -28,5 +28,52 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cruise_id" id="96378E21-6D54-FE7C-3EC8-221D619E247D">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 11:07:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>F5EB8924-D4E7-09E3-2C1C-EF3EED427B44</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>E69B6393-C88D-C060-3101-C932679D3C5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="6681D27E-3DA3-0EA4-7252-D74440E10459">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 11:08:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>A19975E1-3E7D-B71B-3A90-1D00B2443504</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>F0242C55-D09E-555B-ABAF-E1933EBECD4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BACD3071-56FD-DDDF-5858-0D6D70ED9274" name="CRUISE_PORT PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 11:07:55 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96378E21-6D54-FE7C-3EC8-221D619E247D</attributeRef>
+<attributeRef>6681D27E-3DA3-0EA4-7252-D74440E10459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
