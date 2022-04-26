@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="port_code" id="6681D27E-3DA3-0EA4-7252-D74440E10459">
 <createdBy>chenzhuo</createdBy>
@@ -58,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -73,6 +73,7 @@
 <usedAttributes>
 <attributeRef>96378E21-6D54-FE7C-3EC8-221D619E247D</attributeRef>
 <attributeRef>6681D27E-3DA3-0EA4-7252-D74440E10459</attributeRef>
+<attributeRef>671784F6-8096-51DE-395D-00678A21B03E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

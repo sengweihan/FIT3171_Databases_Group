@@ -10,7 +10,7 @@
 <identifying>true</identifying>
 <nameOnSource>records</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>30582695-4B21-137F-0C6D-3DA48C23C4DD</sourceEntity>

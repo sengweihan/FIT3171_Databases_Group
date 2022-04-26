@@ -10,7 +10,7 @@
 <identifying>true</identifying>
 <nameOnSource>dock at</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>7D29CA83-C803-00F2-D1ED-AAF1F1D24000</sourceEntity>

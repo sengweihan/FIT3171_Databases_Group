@@ -10,8 +10,8 @@
 <identifying>false</identifying>
 <nameOnSource> </nameOnSource>
 <nameOnTarget>has</nameOnTarget>
-<optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>9C42C149-42EB-F942-41F6-0A6A6CF379F5</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

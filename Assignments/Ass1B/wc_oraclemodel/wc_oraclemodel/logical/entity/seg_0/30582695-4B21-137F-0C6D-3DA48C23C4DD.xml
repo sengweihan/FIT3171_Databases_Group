@@ -100,7 +100,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pas_guard_id" id="3932F160-85F4-3527-7356-62A57B1972A7">
+<Attribute name="guard_id" id="3932F160-85F4-3527-7356-62A57B1972A7">
 <createdBy>chenzhuo</createdBy>
 <createdTime>2022-04-26 10:56:22 UTC</createdTime>
 <commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
@@ -115,7 +115,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="addr_id" id="828ECAAA-7D4A-7320-28D9-7617B99CC181">
 <createdBy>chenzhuo</createdBy>
@@ -126,7 +126,6 @@
 <engineerTo>
 <item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>856B2BBF-2F1C-7DF1-D378-D0D49ADBB705</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

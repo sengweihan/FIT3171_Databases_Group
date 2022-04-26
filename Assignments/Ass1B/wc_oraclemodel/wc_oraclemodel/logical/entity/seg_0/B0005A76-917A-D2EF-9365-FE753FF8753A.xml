@@ -74,7 +74,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cruise_id" id="D11DF9D3-C7E5-25F1-4910-A419916EDBB2">
 <createdBy>chenzhuo</createdBy>
@@ -103,8 +103,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>086345E8-CAC8-94AC-5FD5-81961E4722E7</attributeRef>
-<attributeRef>4DC24B4F-EB80-D6B6-0161-9A8FC80DE73E</attributeRef>
 <attributeRef>6F89DA0F-2C5F-9918-F78D-84084377AD6F</attributeRef>
 <attributeRef>D11DF9D3-C7E5-25F1-4910-A419916EDBB2</attributeRef>
 </usedAttributes>
