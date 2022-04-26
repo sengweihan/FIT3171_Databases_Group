@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSENGER_MANIFEST" directorySegmentName="seg_0" id="56418624-6A95-E141-AA5A-B0E5E6176AC6">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:51:39 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<sourcePk>1CAE851E-6E04-E101-2557-5A7BA21336E4</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>records</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>30582695-4B21-137F-0C6D-3DA48C23C4DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B0005A76-917A-D2EF-9365-FE753FF8753A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

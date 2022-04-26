@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADDRESS_PASSENGER" directorySegmentName="seg_0" id="5A08B932-22E0-7EFA-08FC-6DA8173878E4">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 11:04:52 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<sourcePk>D7B27C54-1B52-6955-5B21-CBEF2605791B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource> </nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C42C149-42EB-F942-41F6-0A6A6CF379F5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30582695-4B21-137F-0C6D-3DA48C23C4DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

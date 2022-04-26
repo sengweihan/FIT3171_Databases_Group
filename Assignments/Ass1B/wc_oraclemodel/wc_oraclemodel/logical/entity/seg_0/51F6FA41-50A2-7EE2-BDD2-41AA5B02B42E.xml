@@ -100,6 +100,22 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="op_id" id="B7CE2B95-1586-7206-D222-8D32AFEAAD10">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:41:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
+<generatorID>A80F50DF-5E44-5593-77EE-CD3F70786CBF</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>E19A5751-C50B-DDEE-BFB9-123E79245348</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D86F95CB-73F2-F70D-4E6C-FF65CD791E4D" name="SHIP PK">
