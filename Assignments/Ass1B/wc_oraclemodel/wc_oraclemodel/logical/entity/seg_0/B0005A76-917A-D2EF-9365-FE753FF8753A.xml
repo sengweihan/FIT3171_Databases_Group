@@ -28,5 +28,86 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cabin_num" id="086345E8-CAC8-94AC-5FD5-81961E4722E7">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:49:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin number]]></commentInRDBMS>
+<generatorID>BA2290EE-6204-993A-82BB-4F3DEC4DE060</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>D768F18E-2BAD-0AAE-BD8F-0C7AABA59F45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="4DC24B4F-EB80-D6B6-0161-9A8FC80DE73E">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:49:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>BA2290EE-6204-993A-82BB-4F3DEC4DE060</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>C2609E27-3682-BFB7-1120-7B0E273AA24F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_id" id="6F89DA0F-2C5F-9918-F78D-84084377AD6F">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:51:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>56418624-6A95-E141-AA5A-B0E5E6176AC6</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>B4AAB5A1-43A2-748F-E34D-360A3DBACB16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="D11DF9D3-C7E5-25F1-4910-A419916EDBB2">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:53:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>14396CF9-3100-7DD4-6E6A-64A2CE1F08F1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>E69B6393-C88D-C060-3101-C932679D3C5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9194A46E-6745-0C5F-0212-84A2858416F9" name="MANIFEST PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:50:32 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>086345E8-CAC8-94AC-5FD5-81961E4722E7</attributeRef>
+<attributeRef>4DC24B4F-EB80-D6B6-0161-9A8FC80DE73E</attributeRef>
+<attributeRef>6F89DA0F-2C5F-9918-F78D-84084377AD6F</attributeRef>
+<attributeRef>D11DF9D3-C7E5-25F1-4910-A419916EDBB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
