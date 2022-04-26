@@ -64,6 +64,22 @@
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ship_code" id="C2609E27-3682-BFB7-1120-7B0E273AA24F">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-26 10:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>70ADDE93-2571-CEA3-A088-FD0EA9708186</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>EC7568A0-716E-F7D1-DAA3-066F52F9CCCC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D0ECFF75-891A-E09C-6029-68CD396E9BB3" name="CABIN PK">
@@ -76,6 +92,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>D768F18E-2BAD-0AAE-BD8F-0C7AABA59F45</attributeRef>
+<attributeRef>C2609E27-3682-BFB7-1120-7B0E273AA24F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
