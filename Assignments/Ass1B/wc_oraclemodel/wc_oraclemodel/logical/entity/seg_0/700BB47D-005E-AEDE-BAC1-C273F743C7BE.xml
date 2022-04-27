@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="700BB47D-005E-AEDE-BAC1-C273F743C7BE" name="TOUR">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:42:25 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tour_num" id="9A8E0B67-3455-B87D-0BC1-F74D93A9FF4F">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:42:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour number]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_name" id="D95E8421-6F04-5DC2-489B-46D55BAD4E8D">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:43:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour name]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_descrip" id="40B19DFA-228B-A13E-6A39-5DF827F2107A">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:43:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour description]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_hours_req" id="81AF25C6-89A9-29A2-5939-04809BC83BDE">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:43:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour hours required]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_cost_per_person" id="4FEACC4C-C8CE-16B8-0D82-9C5DED620E3C">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:44:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour cost per person]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_wheel_chair_access" id="0137F039-C853-A9BE-8B8F-40BC35648307">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:44:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour wheel chair access]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<constraintName>chk_wheel_chair_access</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="NO"/>
+<valueDef value="Y" description="YES"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_avil" id="157463C0-5C90-0782-FC9C-D3620FB3A64C">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:45:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour availablity]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_start_time" id="9247A070-AD1B-DB51-444B-65BF9C2509F6">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:47:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour start time]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="DC676059-794E-03FF-E861-E7EA1682B330">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:49:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>3869A22F-D2E3-51B1-7E55-AC39586E6E10</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>F0242C55-D09E-555B-ABAF-E1933EBECD4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95DD2718-933B-E851-3302-915A018D8273" name="TOUR PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:42:36 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A8E0B67-3455-B87D-0BC1-F74D93A9FF4F</attributeRef>
+<attributeRef>DC676059-794E-03FF-E861-E7EA1682B330</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

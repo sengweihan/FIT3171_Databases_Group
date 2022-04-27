@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PORT_TOUR" directorySegmentName="seg_0" id="3869A22F-D2E3-51B1-7E55-AC39586E6E10">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 17:49:44 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<sourcePk>694D28F3-8E08-0B48-CEF6-11B01401F5EC</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F92FDE8C-B030-C0C0-FF8E-43B8860425DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>700BB47D-005E-AEDE-BAC1-C273F743C7BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
