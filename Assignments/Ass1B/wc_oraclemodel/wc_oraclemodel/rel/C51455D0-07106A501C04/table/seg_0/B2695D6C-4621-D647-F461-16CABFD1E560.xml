@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2695D6C-4621-D647-F461-16CABFD1E560" name="ADDRESS">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>9C42C149-42EB-F942-41F6-0A6A6CF379F5</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="addr_id" id="4429C8F5-654E-DDAD-CE8D-FB1039F1F228">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[address id]]></commentInRDBMS>
+<generatorID>856B2BBF-2F1C-7DF1-D378-D0D49ADBB705</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr_street" id="011F2DA5-59EE-1035-7CED-75B590E7CCF5">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[address street]]></commentInRDBMS>
+<generatorID>3B12857E-959F-DDAB-6E67-1A88CA646EC2</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr_town" id="CA597ACE-07AD-271F-DF59-F67A29FED49C">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[address town]]></commentInRDBMS>
+<generatorID>E60AAED2-F3B9-FBA4-254C-F70548B0146C</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr_postcode" id="8FDF0F58-242C-26EF-4762-9497BA50ADF3">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[address post code]]></commentInRDBMS>
+<generatorID>BBC95526-D1D2-C415-8868-9D14B5E9B14A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr_country" id="68250700-5896-5C06-7B8F-9EBA1ACE88C3">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[address country]]></commentInRDBMS>
+<generatorID>D7D3F061-4D14-B72D-53B8-DE27BD219260</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA2B0021-7E9D-3C0F-28B8-080B21A83B75" name="ADDRESS_PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>D7B27C54-1B52-6955-5B21-CBEF2605791B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4429C8F5-654E-DDAD-CE8D-FB1039F1F228"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB5F5FB-36C8-0156-D649-A7B9628C5413" name="ADDRESS_NK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>F8C0E041-86DB-5521-E847-4D6A08990CCB</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="011F2DA5-59EE-1035-7CED-75B590E7CCF5"/>
+<colUsage columnID="CA597ACE-07AD-271F-DF59-F67A29FED49C"/>
+<colUsage columnID="8FDF0F58-242C-26EF-4762-9497BA50ADF3"/>
+<colUsage columnID="68250700-5896-5C06-7B8F-9EBA1ACE88C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

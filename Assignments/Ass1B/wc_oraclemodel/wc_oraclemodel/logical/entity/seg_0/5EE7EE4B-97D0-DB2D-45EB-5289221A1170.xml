@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EE7EE4B-97D0-DB2D-45EB-5289221A1170" name="PORT_TOUR">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:12:17 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pt_id" id="91F13B4B-A6C9-324D-B796-843A1C3024A1">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:12:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[port tour id]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_date" id="991C6C28-D11D-21DD-2DBD-1ACC7B410F7F">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:12:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour date]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_num" id="0A0F48E9-C64B-5F77-E660-6591297FFBB9">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:13:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour number]]></commentInRDBMS>
+<generatorID>5E907060-D3F3-1DA3-42AA-6B864A9C83E8</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>9A8E0B67-3455-B87D-0BC1-F74D93A9FF4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="01925365-D1B8-6378-EE68-2C4192A3AACB">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:13:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>5E907060-D3F3-1DA3-42AA-6B864A9C83E8</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<referedAttribute>DC676059-794E-03FF-E861-E7EA1682B330</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E5696D6-A2B0-2540-C36B-A7EB2A5DEE65" name="PORT_TOUR PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:12:30 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91F13B4B-A6C9-324D-B796-843A1C3024A1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EB77C8A8-0468-5F4A-46A8-60E7BD1CE07F" name="PORT_TOUR_NK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 19:14:27 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<newElementsIDs>991C6C28-D11D-21DD-2DBD-1ACC7B410F7F,0A0F48E9-C64B-5F77-E660-6591297FFBB9,01925365-D1B8-6378-EE68-2C4192A3AACB</newElementsIDs>
+<usedAttributes>
+<attributeRef>991C6C28-D11D-21DD-2DBD-1ACC7B410F7F</attributeRef>
+<attributeRef>0A0F48E9-C64B-5F77-E660-6591297FFBB9</attributeRef>
+<attributeRef>01925365-D1B8-6378-EE68-2C4192A3AACB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

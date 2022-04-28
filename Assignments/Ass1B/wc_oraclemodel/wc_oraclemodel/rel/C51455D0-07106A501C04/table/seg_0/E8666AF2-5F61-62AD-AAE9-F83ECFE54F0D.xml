@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8666AF2-5F61-62AD-AAE9-F83ECFE54F0D" name="TOUR_REPORT">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>CE1ABA69-BC00-615D-8D6C-3B491BC910AF</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tr_id" id="F01FE477-E462-C392-891B-F34C91842977">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour report id]]></commentInRDBMS>
+<generatorID>AA78BF2C-9E63-6834-748E-A088138EACE1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tr_payment_received" id="6C3BA908-11D5-69CA-5CA5-6BB8E78DB6CC">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour payment recevied]]></commentInRDBMS>
+<generatorID>376E5898-B731-4310-54A9-67899B6BD642</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_tour_payment_received</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="NO"/>
+<valueDef value="Y" description="YES"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pt_id" id="CA2D135A-B77F-ADF7-6ECA-433EACDFC78C">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[port tour id]]></commentInRDBMS>
+<generatorID>A20BA0AA-C3CE-6E27-2F84-C0CE52B1113C</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DCEDDC8-2776-D148-F3CE-C4F349352F2A" referredColumn="E81ADA15-783D-0D33-824D-751C50BA1B66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="973411F2-41D6-B3A7-F564-DA1EEB56EEF9" name="TOUR_REPORT_PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>DD3F7623-FC23-9B52-EA60-BD5BB173F52B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F01FE477-E462-C392-891B-F34C91842977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70262855-A583-C07A-9BF2-8932493D3348" name="TOUR_REPORT_NK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>19A5DD6D-F133-70CB-12F0-BC0C8488C757</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2D135A-B77F-ADF7-6ECA-433EACDFC78C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AA9D5BF-8C5D-03F4-ADD2-468639228D1E" name="PORT_TOUR_TOUR_REPORT">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>54E86F81-BF31-24D5-5008-7923F828FF7C</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2D135A-B77F-ADF7-6ECA-433EACDFC78C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

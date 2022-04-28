@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5444D9AC-AB80-55FF-1D1C-E9203BE7A336" name="MANIFEST">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>B0005A76-917A-D2EF-9365-FE753FF8753A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="manifest_board_datetime" id="612E8216-8779-8D89-34A2-491000D8934E">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[boarding date time]]></commentInRDBMS>
+<generatorID>86D5E263-ACFA-828C-80FD-51A00B15794E</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cabin_num" id="5B18C9D8-9E11-469B-E6B0-3F5DD69C3296">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin number]]></commentInRDBMS>
+<generatorID>086345E8-CAC8-94AC-5FD5-81961E4722E7</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A7C330-0A15-A4A5-8D71-DBAFC35C075F" referredColumn="BD214372-EB9D-3D8F-471F-DF9BBFAED919"/>
+</associations>
+</Column>
+<Column name="ship_code" id="E93D3B12-1D80-F56D-D81E-F589C5554DAC">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>4DC24B4F-EB80-D6B6-0161-9A8FC80DE73E</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60A7C330-0A15-A4A5-8D71-DBAFC35C075F" referredColumn="AEF4F287-23F6-DB29-3DC0-65815A6DB0AD"/>
+</associations>
+</Column>
+<Column name="pas_id" id="F713D5CC-46FB-A6EA-325B-FB899BACC5CA">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>6F89DA0F-2C5F-9918-F78D-84084377AD6F</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAA35660-2776-93B0-30FA-6D6DA27D4D11" referredColumn="339EE169-8900-1123-7563-1FAB3EEA1BF9"/>
+</associations>
+</Column>
+<Column name="cruise_id" id="2BD91731-7D6B-71F3-860D-9224945489F4">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>D11DF9D3-C7E5-25F1-4910-A419916EDBB2</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A97A610E-9F41-3606-EEAA-85625C7B57E4" referredColumn="A8BEF292-9B92-B324-4F46-D4543D1673C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="945B1013-7A67-98D1-846E-07ADC001CD78" name="MANIFEST_PK">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>9194A46E-6745-0C5F-0212-84A2858416F9</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F713D5CC-46FB-A6EA-325B-FB899BACC5CA"/>
+<colUsage columnID="2BD91731-7D6B-71F3-860D-9224945489F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC482D6-A6AD-0F73-3C47-EE2D4E733739" name="CABIN_MANIFEST">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>BA2290EE-6204-993A-82BB-4F3DEC4DE060</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B18C9D8-9E11-469B-E6B0-3F5DD69C3296"/>
+<colUsage columnID="E93D3B12-1D80-F56D-D81E-F589C5554DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAC14A16-AC86-78BF-65AB-062B866423D9" name="CRUISE_MANIFEST">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>14396CF9-3100-7DD4-6E6A-64A2CE1F08F1</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD91731-7D6B-71F3-860D-9224945489F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BC717C-A5A4-9EA4-BCDC-E4BA17F60BA1" name="PASSENGER_MANIFEST">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>56418624-6A95-E141-AA5A-B0E5E6176AC6</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F713D5CC-46FB-A6EA-325B-FB899BACC5CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

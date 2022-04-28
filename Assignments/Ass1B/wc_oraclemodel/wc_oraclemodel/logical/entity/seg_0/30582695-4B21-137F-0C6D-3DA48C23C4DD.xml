@@ -37,6 +37,7 @@
 <engineerTo>
 <item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,6 +52,7 @@
 <engineerTo>
 <item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -65,7 +67,6 @@
 <engineerTo>
 <item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -132,6 +133,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pas_principal_spoken_language" id="7EAB2E15-70E4-5C34-3C90-206EC462FC96">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:39:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger principal spoken language]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="C51455D0-CA9C-7DF3-C6F1-07106A501C04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

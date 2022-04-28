@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30A57C84-DA58-2883-AAD9-B8CD8D313492" containerWithKeyObject="C5FE0C24-5925-CC6F-5651-BD0032B040CB" localFKIndex="2256E31F-9BD8-F840-31ED-A370E1FDF029" name="SHIP_CRUISE">
+<createdBy>chenzhuo</createdBy>
+<createdTime>2022-04-27 20:44:41 UTC</createdTime>
+<generatorID>1602C0AA-E85D-8D71-2B86-9644BBF4CCD0</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<referredTableLongName>SHIP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C56EB3B4-EF7E-0ABD-555C-DE7B459E5686</referredTableID>
+<keyObject>7E27DB9D-E9DE-CD05-B0B1-B3087DB243D8</keyObject>
+<referredKeyID>7E27DB9D-E9DE-CD05-B0B1-B3087DB243D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ship_code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
